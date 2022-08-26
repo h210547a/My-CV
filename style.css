@@ -1,0 +1,107 @@
+* {
+margin: 0px;
+padding: 0px;
+font-family: sans-serif;
+}
+body{
+    background: rgb(47, 45, 45);
+    font-size: 15px;
+    color: rgb(94, 87, 87);
+    line-height: 22px;
+}
+.bold{
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.semi_bold{
+    font-weight: 500;
+    font-size: 17px;
+}
+.cv{
+    width: 800px;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+}
+.left{
+    width: 300px;
+    background-color: darkgray;
+}
+.profile{
+    width: 100%;
+    height: 300px;
+}
+.profile img{
+    width: 100%;
+    height: 100%;
+}
+.content{
+    padding-left:  30px;
+}
+ .title{
+     margin-top: 8px;
+     margin-bottom: 23px;
+ }
+.bold{
+    color: aliceblue;
+}
+.cv .item{
+    padding: 25px 0px;
+    border-bottom: 2px dashed rgb(202, 209, 216);
+} 
+.cv .item:last-child{
+    border: 0px;
+}
+.skills ul li{
+    justify-content: space-between;
+}
+.right{
+    width: 500px;
+    background-color: aliceblue;
+    padding: 25px;
+}
+.right .bold{
+    color: darkgray;
+}
+.item-education{
+    padding-left: 20px;
+}
+.right ul li{
+    position: relative;
+}
+.right ul li .date{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.right .infor{
+    margin-bottom: 20px;
+}
+.hobby ul li{
+    margin-bottom: 10px;
+}
+.educaation .infor{
+    margin-bottom: 10px;
+}
+.download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    margin-top: 15px;
+    width: 115px;
+    height: 20px;
+    background-color: aliceblue;
+    color: rgb(94, 87, 87);
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 1.5s ease-in-out 1ms;
+}
+a:hover{
+    background-color:  darkgray;
+    padding: 5px;
+}
